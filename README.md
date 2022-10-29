@@ -8,9 +8,9 @@ Class features:
 
 - The class must have two types of constructor methods
 
-- MyList() : If the empty constructor is used, the initial size of the array should be 10.
+- List() : If the empty constructor is used, the initial size of the array should be 10.
 
-- MyList(int capacity) : The initial value of the array should be taken from the capacity parameter.
+- List(int capacity) : The initial value of the array should be taken from the capacity parameter.
 
 - size() : Returns the number of elements in the array.
 
@@ -36,6 +36,6 @@ Class features:
 
 - clear() : Deletes all items in the list, making it an empty list.
 
-- MyList sublist(int start,int finish) : Returns a list of the index range given in the parameter.
+- List sublist(int start,int finish) : Returns a list of the index range given in the parameter.
 
 - boolean contains(T data) : It tells whether the value given in the parameter is in the array.
